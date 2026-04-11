@@ -1,0 +1,73 @@
+﻿[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 29 modules transformed.
+node.exe : [31mx[39m 
+Build failed in 1.12s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: ([31m  
+  x[39m Build failed in    
+ 1.12s:String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+[31merror during build:
+[31m[vite:build-import-anal
+ysis] [plugin 
+vite:build-import-analysis] 
+src/utils/formatters.js 
+(23:0): Failed to parse 
+source for import analysis 
+because the content 
+contains invalid JS syntax. 
+If you are using JSX, make 
+sure to name the file with 
+the .jsx or .tsx 
+extension.[31m
+file: [36mC:/Users/El/Downl
+oads/ladle-monitoring-rd/src
+/utils/formatters.js:23:0[3
+1m
+[33m
+21:   return format(new 
+Date(date), 'MM/dd/yyyy 
+HH:mm', { locale: enUS })
+22: }
+23: }
+    ^
+24: 
+25: // Calculate percentage
+[31m
+    at getRollupError (file:
+///C:/Users/El/Downloads/lad
+le-monitoring-rd/node_module
+s/rollup/dist/es/shared/pars
+eAst.js:402:41)
+    at error (file:///C:/Use
+rs/El/Downloads/ladle-monito
+ring-rd/node_modules/rollup/
+dist/es/shared/parseAst.js:3
+98:42)
+    at Object.error (file://
+/C:/Users/El/Downloads/ladle
+-monitoring-rd/node_modules/
+rollup/dist/es/shared/node-e
+ntry.js:22226:20)
+    at Object.error (file://
+/C:/Users/El/Downloads/ladle
+-monitoring-rd/node_modules/
+rollup/dist/es/shared/node-e
+ntry.js:21275:42)
+    at Object.transform (fil
+e:///C:/Users/El/Downloads/l
+adle-monitoring-rd/node_modu
+les/vite/dist/node/chunks/de
+p-BK3b2jBa.js:64913:14)[39m
